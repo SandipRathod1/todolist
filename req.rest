@@ -1,0 +1,18 @@
+GET http://localhost:5050/todos
+
+###
+
+POST http://localhost:5050/todo/new
+Content-Type: application/json
+
+{
+    "text":"Order Mango Chips"
+}
+
+###
+
+DELETE http://localhost:5050/todo/delete/649d21d9ed12bee7c6518950
+
+###
+
+PUT http://localhost:5050/todo/complete/649d21d9ed12bee7c6518950
